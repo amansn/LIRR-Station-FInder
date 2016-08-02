@@ -26,7 +26,6 @@
   bottom: 0;
   left: 0;
   z-index: 0;
-
   /* non-critical appearance styles */
   list-style: none;
   background: #111;
@@ -62,13 +61,12 @@
   /* Critical position and size styles */
   height: 100%;
   width: 100%;
-  background-color: white; /* Needs a background or else the nav will show through */
+  background-color: gray; /* Needs a background or else the nav will show through */
   position: relative;
   top: 0;
   bottom: 100%;
   left: 0;
   z-index: 1;
-
   /* non-critical apperance styles */
   padding: 60px 0 0 0;
 }
